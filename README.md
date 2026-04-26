@@ -36,7 +36,7 @@ Monthly stock returns are compounded into annual returns so that stock performan
 
 ## 5. Methods
 
-The project uses Python to clean, transform, analyze, and visualize the data.
+The project uses Python (documented in a Jupyter notebook) to clean, transform, analyze, and visualize the data.
 
 Main steps include:
 
@@ -77,14 +77,15 @@ When you open the dashboard, you can:
 - `pip` installed
 - a working Python environment (virtualenv, venv, or conda recommended)
 
-## 8. Project Structure
+## 9. Project Structure
 
 - `app.py` — main Streamlit dashboard
+- `4_Hotels.ipynb` — data cleaning and preparation workflow
 - `requirements.txt` — Python dependencies
 - `top4_hotels_annual_2018_2025.csv` — input data file
 - `.streamlit/` — optional Streamlit configuration folder
 
-## 9. How to Run the App
+## 10. How to Run the App
 
 Install the required packages and run the app:
 
@@ -95,11 +96,11 @@ streamlit run app.py
 
 Make sure the data file `top4_hotels_annual_2018_2025.csv` is located in the project root next to `app.py`.
 
-## 10. Limitations
+## 11. Limitations
 
 - This project focuses only on four hotel companies, so the results should not be generalized to the whole hotel industry.
 - Stock return data for 2025 are not available because full-year market data are not yet complete.
 - Some financial metrics, such as EPS, P/E ratio, P/B ratio, and free cash flow, are useful for analysis but are not directly comparable with stock returns on the same scale. Therefore, the alignment section focuses on percentage-based metrics such as ROA, ROE, and profit margin.
 
-## 11. Author
+## 12. Author
 Karina Ermakova
