@@ -11,13 +11,13 @@ The dashboard focuses on four hotel companies:
 - Marriott International
 - InterContinental Hotels Group (IHG)
 
-## 2. Analytical Problem
+## Analytical Problem
 
-The main analytical question is:
+The main analytical questions are:
 
-**Do stronger financial fundamentals appear to align with stronger annual stock returns for major hotel companies?**
+How do major hotel companies compare in terms of financial performance over time, and to what extent do stronger financial fundamentals align with higher annual stock returns?
 
-The project compares annual financial metrics with annual stock returns to evaluate whether accounting performance and market performance move in similar or different directions.
+The project compares financial metrics across companies to evaluate relative performance, while also examining whether accounting performance and market performance move in similar or different directions.
 
 ## 3. Target Audience
 
